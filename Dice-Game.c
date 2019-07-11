@@ -13,7 +13,7 @@ int main() {
 
   srand(time(NULL));
   int x = rand() % 2 + 1;
-  if(x == 1) printf("%s don't play game\n");
+  if(x == 1) printf("%s don't play game\n",name);
   else{
 
   a = rand() % 6 + 1;
