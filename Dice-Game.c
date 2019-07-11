@@ -20,8 +20,8 @@ int main() {
 
   
   int c = a + b;
-  if(c > 7)printf("You won\n");
-  else printf("You lost\n");
+  if(c > 7)printf("%s won\n",name);
+  else printf("%s lost\n",name);
   
   return 0;
 }
